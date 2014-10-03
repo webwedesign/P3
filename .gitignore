@@ -1,0 +1,33 @@
+# Directories content
+src/public/cache/class_index.php
+src/public/cache/smarty/cache/*
+!src/public/cache/smarty/cache/index.php
+src/public/cache/smarty/compile/*
+!src/public/cache/smarty/compile/index.php
+src/public/cache/tcpdf/*
+!src/public/cache/tcpdf/index.php
+
+src/public/config/xml/*.xml
+src/public/config/settings.inc.php
+
+src/public/log/*.log
+
+src/public/img/*
+!src/public/img/index.php
+!src/public/img/*/index.php
+
+src/public/tools/smarty*/cache/*.php
+!src/public/tools/smarty*/cache/index.php
+src/public/tools/smarty*/compile/*.php
+!src/public/tools/smarty*/compile/index.php
+
+src/public/themes/default/cache/*.js
+src/public/themes/default/cache/*.css
+
+# Ignore files on root directory
+src/public/robots.txt
+src/public/sitemap.xml
+/.settings/
+/.buildpath
+/.project
+/.vagrant/
