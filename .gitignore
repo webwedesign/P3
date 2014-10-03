@@ -31,3 +31,4 @@ src/public/sitemap.xml
 /.buildpath
 /.project
 /.vagrant/
+/Vagrantfile
